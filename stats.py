@@ -3,7 +3,7 @@ def count_words(text):
     word_string = text.split()
     return len(word_string)
 
-## Function for counting characters
+## Function for counting characters and returning a dictionary of counted characters
 def count_chars(text):
     char_dict = {}
     for char in text.lower():
